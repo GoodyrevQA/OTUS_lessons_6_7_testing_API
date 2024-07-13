@@ -72,22 +72,3 @@ class GectaroHttpClient:
             f"{self.base_url}/v1/companies/{company_id}/resource-requests"
         )
         return response
-
-
-# json_data = {
-#     "name": "first_resource",
-#     "needed_at": int(datetime.now().timestamp()),
-#     "project_id": '85880',
-#     "type": 2,
-#     "volume": 5
-# }
-#
-# headers_data = {
-#     "Authorization": "Bearer eIf0Aik0jaiuBxAA-Qo3CJ8Jitzn6Ywg"
-# }
-#
-#
-# response = requests.post('https://api.gectaro.com/v1/projects/''85880/resources',
-#                          headers=headers_data, json=json_data)
-#
-# print(response)

@@ -20,12 +20,9 @@ usr = UserData(
     ]
 )
 
-# print(usr)
-# print(usr.model_dump())
 
 jsondict = {
     "data": [{"login": "Vasya", "pincode": 123}, {"login": "Prtya", "pincode": 456}]
 }
 
 usr2 = UserData(**jsondict)
-# print(usr2)
